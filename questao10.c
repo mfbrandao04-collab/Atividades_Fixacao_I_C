@@ -10,9 +10,9 @@ int main() {
     scanf("%d", &tempoEmpresa);
 
     if (idade >= 18 && tempoEmpresa >= 1) {
-        printf("Acesso autorizado.\n");
+        printf("Acesso autorizado! Funcionario atende aos requisitos.\n");
     } else {
-        printf("Acesso nao autorizado.\n");
+        printf("Acesso nao autorizado! Funcionario nao atende aos requisitos.\n");
     }
 
     return 0;
